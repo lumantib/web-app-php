@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml/DTD/xhtml-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Simple webpage </title>
+</head>
+<body background="hehe.jpg">
+    <br/>
+    <h3 align="center ">
+        <font face="Lato" size="6">Welcome </font>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font face="cinzel">
+            <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">VIDEOS</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">PORTFOLIO</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">BLOG</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">CONTACT</a>&nbsp;&nbsp;&nbsp;
+        </font>
+    </h3>
+     <br/><br/><br/><br/><br/><br/><br/><br/>
+     <h1 align="center">
+         <font face="Lato" color="White" size="7">
+             Welcome to main page
+         </font>
+     </h1>
+     <h3 align="center">
+         <font face="Lato" color="white" size="5">
+             Get started
+         </font>
+
+     </h3>
+
+
+</body>
+</html>
