@@ -44,7 +44,7 @@
         <nav>
             <ul>
                 <li><a href="1.php">|Home|</a></li>
-                <li><a href="admin.php">|Admin|</a></li>
+                <li><a href="admin.php">|User|</a></li>
                 <li><a href="view.php">|Travel package| </a></li>
                 <li><a href="login.php">|Price|</a></li>
             </ul>

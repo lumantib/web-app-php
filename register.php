@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <?php
     $defaults=array(
-        "name"=>"john cena",
-        "uname"=>"jiji",
+        "uname"=>"john cena",
         "pw"=>"a"
     )
 ?>
@@ -53,7 +52,7 @@
         <nav>
             <ul>
                 <li><a href="1.php">|Home|</a></li>
-                <li><a href="admin.php">|Admin|</a></li>
+                <li><a href="admin.php">|User|</a></li>
                 <li><a href="view.php">|Travel package| </a></li>
                 <li><a href="login.php">|Price|</a></li>
             </ul>
@@ -85,10 +84,6 @@
         <tr>
         
             <td>Name:</td>
-            <td><input type="text" name="name" value="$defaults[name]"></td>
-        </tr>
-        <tr>
-            <td>Username:</td>
             <td><input type="text" name="uname" value="$defaults[uname]"></td>
         </tr>
         <tr>
@@ -110,8 +105,8 @@ function savedata() {
     if(!$connection) {
         die("Can not connect to the database server ". mysqli_connect_error());
     }  
-    $query = "insert into admin (Name,Username,Password)
-        values ('$_POST[name]', '$_POST[uname]', '$_POST[pw]')
+    $query = "insert into users (username,password)
+        values ('$_POST[uname]', '$_POST[pw]')
     ";
 
     $query = mysqli_query($connection, $query);
@@ -128,9 +123,6 @@ function savedata() {
     function validatedata()
     {
         $errors = array();
-        if (strlen($_POST['name']) < 2 || strlen($_POST['name'])>11) {
-            $errors[] = "Name must be Atleast between 2-11 characters long";
-        }
         if (strlen($_POST['uname']) < 2 || strlen($_POST['uname'])>10) {
             $errors[] = "UserName must be Atleast between 2-11 characters long";
         }
